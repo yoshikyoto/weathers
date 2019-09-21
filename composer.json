@@ -7,6 +7,7 @@
 	"name" : "yoshikyoto/weathers",
 	"require" : {
 		"php" : ">=7.2",
-		"guzzlehttp/guzzle" : "^6.3"
+		"guzzlehttp/guzzle" : "^6.3",
+		"guzzlehttp/oauth-subscriber": "^0.3.0"
 	}
 }
