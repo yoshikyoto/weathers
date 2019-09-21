@@ -4,3 +4,9 @@ services:
     build: .
     volumes:
       - ".:/opt/yahoo-weather"
+  nginx:
+    image: nginx:latest
+    ports: 
+      - 8080:80
+    depends_on:
+      - php
