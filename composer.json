@@ -1,12 +1,12 @@
 {
 	"autoload" : {
 		"psr-4" : {
-			"Yoshikyoto\\Yahoo\\Wether\\" : "src"
+			"Yoshikyoto\\Wether\\" : "src"
 		}
 	},
-	"name" : "yoshikyoto/yahoo-wether",
+	"name" : "yoshikyoto/wethers",
 	"require" : {
 		"php" : ">=7.2",
-		"guzzlehttp/guzzle": "^6.3"
+		"guzzlehttp/guzzle" : "^6.3"
 	}
 }
