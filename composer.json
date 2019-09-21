@@ -1,10 +1,10 @@
 {
 	"autoload" : {
 		"psr-4" : {
-			"Yoshikyoto\\Wether\\" : "src"
+			"Yoshikyoto\\Weather\\" : "src"
 		}
 	},
-	"name" : "yoshikyoto/wethers",
+	"name" : "yoshikyoto/weathers",
 	"require" : {
 		"php" : ">=7.2",
 		"guzzlehttp/guzzle" : "^6.3"
